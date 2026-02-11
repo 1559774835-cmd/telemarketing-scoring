@@ -1,0 +1,329 @@
+{
+  "dimensions": [
+    {
+      "id": "opening",
+      "name": "开场白",
+      "max_score": 15,
+      "weight": 0.15,
+      "description": "评估电销人员的开场白是否专业、友好、有效建立信任",
+      "criteria": [
+        {
+          "item": "自我介绍",
+          "score": 5,
+          "requirements": [
+            "清晰说明姓名和公司",
+            "语气亲和友好",
+            "询问是否方便通话"
+          ],
+          "good_examples": [
+            "您好，我是理想汽车的销售顾问小李，请问您现在方便通话吗？",
+            "刘先生您好，我是理想汽车的产品顾问，看到您关注了我们的车型"
+          ],
+          "bad_examples": [
+            "喂，你是想买车的那个吗？",
+            "我是理想的，你要不要买车？"
+          ]
+        },
+        {
+          "item": "了解来源",
+          "score": 5,
+          "requirements": [
+            "询问客户了解渠道",
+            "记录来源信息",
+            "根据来源定制话术"
+          ],
+          "good_examples": [
+            "请问您是通过什么渠道了解到我们理想汽车的呢？",
+            "看到您在官网留了资料，想了解哪款车型呢？"
+          ]
+        },
+        {
+          "item": "建立初步信任",
+          "score": 5,
+          "requirements": [
+            "感谢客户关注",
+            "说明通话目的",
+            "表达服务意愿"
+          ],
+          "good_examples": [
+            "非常感谢您对理想汽车的关注，今天给您致电主要是想了解您的用车需求，为您推荐最合适的车型"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "needs_analysis",
+      "name": "需求分析",
+      "max_score": 15,
+      "weight": 0.15,
+      "description": "评估是否有效挖掘客户真实需求、痛点和使用场景",
+      "criteria": [
+        {
+          "item": "询问用车场景",
+          "score": 5,
+          "requirements": [
+            "了解家庭情况（人数、孩子年龄）",
+            "询问使用场景（通勤、出行、商务）",
+            "了解用车频率"
+          ]
+        },
+        {
+          "item": "挖掘痛点",
+          "score": 5,
+          "requirements": [
+            "询问现有车型的不满",
+            "了解为什么要换车",
+            "识别核心需求"
+          ]
+        },
+        {
+          "item": "确认预算",
+          "score": 5,
+          "requirements": [
+            "自然询问预算范围",
+            "了解购车时间",
+            "确认决策人"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "model_recommendation",
+      "name": "车型判断",
+      "max_score": 10,
+      "weight": 0.10,
+      "description": "根据需求推荐合适车型，判断准确",
+      "criteria": [
+        {
+          "item": "车型匹配度",
+          "score": 5,
+          "requirements": [
+            "根据需求推荐合适车型",
+            "解释推荐理由",
+            "对比不同配置"
+          ]
+        },
+        {
+          "item": "多方案提供",
+          "score": 5,
+          "requirements": [
+            "提供2-3个备选方案",
+            "说明各方案优劣",
+            "引导客户选择"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "product_introduction",
+      "name": "产品介绍",
+      "max_score": 15,
+      "weight": 0.15,
+      "description": "针对性介绍产品卖点，突出差异化优势",
+      "criteria": [
+        {
+          "item": "针对性介绍",
+          "score": 6,
+          "requirements": [
+            "围绕客户需求介绍",
+            "突出核心卖点",
+            "避免流水账式介绍"
+          ]
+        },
+        {
+          "item": "产品知识准确",
+          "score": 5,
+          "requirements": [
+            "参数信息准确",
+            "技术说明清晰",
+            "避免专业术语过多"
+          ]
+        },
+        {
+          "item": "对比竞品",
+          "score": 4,
+          "requirements": [
+            "客观对比优势",
+            "不贬低竞品",
+            "突出差异化"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "objection_handling",
+      "name": "异议处理",
+      "max_score": 15,
+      "weight": 0.15,
+      "description": "有效回应客户顾虑，消除疑虑",
+      "criteria": [
+        {
+          "item": "倾听和共情",
+          "score": 5,
+          "requirements": [
+            "认真倾听客户顾虑",
+            "表示理解",
+            "不打断客户"
+          ]
+        },
+        {
+          "item": "专业解答",
+          "score": 6,
+          "requirements": [
+            "提供事实数据支撑",
+            "给出解决方案",
+            "消除顾虑"
+          ]
+        },
+        {
+          "item": "案例佐证",
+          "score": 4,
+          "requirements": [
+            "引用成功案例",
+            "提供用户口碑",
+            "增强信任"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_drive_awareness",
+      "name": "认知试驾",
+      "max_score": 5,
+      "weight": 0.05,
+      "description": "判断客户对试驾的认知和意愿",
+      "criteria": [
+        {
+          "item": "询问试驾经历",
+          "score": 5,
+          "requirements": [
+            "询问是否试驾过",
+            "了解试驾其他品牌情况",
+            "判断试驾意愿"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_drive_packaging",
+      "name": "包装试驾",
+      "max_score": 5,
+      "weight": 0.05,
+      "description": "强调试驾的价值和必要性",
+      "criteria": [
+        {
+          "item": "强调试驾价值",
+          "score": 5,
+          "requirements": [
+            "说明试驾的重要性",
+            "突出智能驾驶等需要体验的功能",
+            "降低试驾门槛"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_drive_invitation",
+      "name": "邀约试驾",
+      "max_score": 5,
+      "weight": 0.05,
+      "description": "主动发起试驾邀约",
+      "criteria": [
+        {
+          "item": "发起邀约",
+          "score": 5,
+          "requirements": [
+            "明确提出试驾邀请",
+            "提供时间选项",
+            "说明试驾流程"
+          ],
+          "good_examples": [
+            "刘先生，我们店里正好有现车，您看这周末有时间来试驾体验一下吗？",
+            "建议您亲自来体验一下我们的智能驾驶功能"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_drive_confirmation",
+      "name": "明确试驾",
+      "max_score": 5,
+      "weight": 0.05,
+      "description": "确认试驾的时间、地点等细节",
+      "criteria": [
+        {
+          "item": "确认细节",
+          "score": 5,
+          "requirements": [
+            "确认具体时间",
+            "说明门店地址",
+            "留下联系方式",
+            "发送确认信息"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "closing",
+      "name": "结束语",
+      "max_score": 10,
+      "weight": 0.10,
+      "description": "礼貌结束通话，留下好印象",
+      "criteria": [
+        {
+          "item": "总结要点",
+          "score": 4,
+          "requirements": [
+            "回顾本次沟通要点",
+            "确认客户理解",
+            "明确下一步行动"
+          ]
+        },
+        {
+          "item": "礼貌结束",
+          "score": 3,
+          "requirements": [
+            "感谢客户时间",
+            "表达期待",
+            "礼貌道别"
+          ]
+        },
+        {
+          "item": "后续跟进",
+          "score": 3,
+          "requirements": [
+            "说明后续跟进方式",
+            "留下联系方式",
+            "承诺服务"
+          ]
+        }
+      ]
+    }
+  ],
+  "grade_levels": [
+    {
+      "level": "优秀",
+      "min_score": 90,
+      "max_score": 100,
+      "description": "话术流畅自然，专业度高，能够有效引导客户，达成销售目标"
+    },
+    {
+      "level": "良好",
+      "min_score": 80,
+      "max_score": 89,
+      "description": "话术较为规范，能够基本满足销售需求，存在少量可优化之处"
+    },
+    {
+      "level": "合格",
+      "min_score": 70,
+      "max_score": 79,
+      "description": "话术基本完整，但存在部分信息不准确或表达不清晰的问题"
+    },
+    {
+      "level": "不合格",
+      "min_score": 0,
+      "max_score": 69,
+      "description": "话术存在较多错误或遗漏，无法有效传递信息，影响销售效果"
+    }
+  ]
+}
